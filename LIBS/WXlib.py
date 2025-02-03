@@ -30,7 +30,7 @@ class WX:
                 "repetition_penalty": 1
         }
         # set default model id
-        self.defaultModelID = 'meta-llama/llama-3-70b-instruct'
+        self.defaultModelID = 'meta-llama/llama-3-3-70b-instruct'
         # instantiate LLM model with default values
         self.wxInstModel(modelID=self.defaultModelID, modelParams=self.defaultModelParams)
         return
